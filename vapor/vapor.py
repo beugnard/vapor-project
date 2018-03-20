@@ -6,17 +6,6 @@ from flask import request
 app = Flask(__name__)
 
 
-def stashedmethod(i):
-    """
-    forgetmethod: written in 1982, I'm not used since 20 years.
-    Please don't delete me, I'm not dangerous.
-
-    @input i: integer
-    @output False: Nobody know
-    """
-    return i == (i + 1)
-
-
 def sumit(a, b):
     """
     sumit : Read "sum-it", add a and b, return result.
